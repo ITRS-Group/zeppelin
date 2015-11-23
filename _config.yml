@@ -10,27 +10,27 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+title: "J On The Beach 2016"
+email: "info@jonthebeach.com"
+description: "Bringing developers and devOps together around the JVM"
+baseurl: ""
+url: "http://www.jonthebeach.com"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
+googleAnalyticsSiteUrl: "www.jonthebeach.com"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "Jelastic & Valo"
+organizerAlternateName: "Jelastic & Valo"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "info@jonthebeach.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://www.valo.io"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, JVM, scala, Gosling, JAVA8, developers, devOps, Málaga, devfest, programming"
+twitterAccount: "@J_OnTheBeach"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -50,34 +50,34 @@ navigationLinks:
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/schedule/", text: "Schedule"}
 rightNavigationButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "A JVM rendezvous for <typeout>"
+eventDate: "March 18th-19th, 2016"
+typeoutTextValues: '"", "Scala developers", "devOps", "Java lovers", "Groovy"'
+typeoutFallback: "Software enthusiasts"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About J On The Beach"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "The Rendezvous", image: "conference.jpg", text: "A meeting to share experiences and knowledge with top programmers from all over the world around the JVM." }
+ - {title: "The City", image: "workshop.jpg", text: "Málaga, a dynamic metropolis on the southern coast of Spain with one of the best climates in Europe." }
  - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "400", specialCharacter: "+", info: "attendees", detail: "from all over"}
+ - {count: "20", specialCharacter: "+", info: "hours", detail: "of JVM madness"}
+ - {count: "38", specialCharacter: "+", info: "speakers", detail: "from around the globe"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus Workshops"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -85,24 +85,24 @@ latestNewsTitle: "Latest news"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersTitle: "Speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventLocationName: "La Térmica. Málaga"
+eventLocationLink: "https://plus.google.com/101376405204347992216/posts?gl=es&hl=es"
+eventStreetAddress: "Av. de Los Guindos, 48. Next to La Misericordia Beach"
+eventAddressLocality: "Málaga"
+eventAddressLocalityRegion: "Andalucía"
+eventPostalCode: "29004"
+eventAddressCountry: "Spain"
+eventStartTime: "2016-03-18T09:00"
+eventDoorTime: "08:30"
+eventEndTime: "2016-03-19T19:30"
+eventPlaceCoordinates: "36.6894372, -4.4452808"
+mapCenterCoordinates: "36.6894372, -4.4452808"
+mapMobileCenterCoordinates: "36.6894372, -4.4452808"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -110,14 +110,14 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "La Térmica"
+venueFeatures: ["Mindblowing space for creators", "A life place for talents", "Located in the city of Málaga"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+tweetsFeedTitle: "Talk to us!"
+twitterHashTag: "jonthebeach"
+# twitterFeed: "http://enterwebdesign.es/blog_jgc/tweetledee/searchjson.php?q=J_OnTheBeach"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -128,82 +128,106 @@ partnersC4sponsorsButton: "Become a sponsor"
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeInfo: "Registration will open in December. The number of tickets will be limited. Stay tuned!"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsInfo: "Tickets grant access to all conference sessions and exhibition area, coffee breaks, lunch, and the closing party. Accommodations are NOT included in the ticket price."
 ticketsOffers:
  -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
+  name: "Standard"
+  price: "150"
+  priceCurrency: "€"
+  ticketsNumber: "200"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["All the sessions and exhibition area", "Breakfast & Lunch included", "Closing party and beers included"]
+  validFrom: "2016-01-15T00:00"
+  validThrough: "2016-02-29T23:59"
+  disabled: true
+  soldOut: false
+  soldOutText: "Sold Out"
+
+ -
+  name: "Early Bird"
+  price: "100"
+  priceCurrency: "€"
+  ticketsNumber: "100"
+  ribbon: "-30%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["All the sessions and exhibition area", "Breakfast & Lunch included", "Closing party and beers included"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
+  disabled: false
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
+  soldOut: false
+  soldOutText: "Sold Out"
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
+#  name: "Last Chance"
+#  price: "200"
+#  priceCurrency: "€"
+#  ticketsNumber: "100"
+#  featured: true
+#  buyButtonLink: "http://www.eventbrite.es/e/lambda-world-tickets-18395382083"
+#  buyButtonText: "Buy Now"
+#  ticketContentList:  ["All the sessions and exhibition area", "Breakfast & Lunch included", "Closing party and beers included"]
+#  validFrom: "2015-10-01T00:00"
+#  validThrough: "2015-10-23T23:59"
+#  disabled: true
+# - 
+  name: "Student / Unemployed"
+  price: "75"
+  ribbon: "-50%"
+  priceCurrency: "€"
   ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: "http://www.eventbrite.es/e/lambda-world-tickets-18395382083"
   buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
+  additionalInfo: "Requires a valid student ID at the conference check in or a unemployement certificate. Without it, ticket will be cancelled without refund"
+  ticketContentList:  ["All the sessions and exhibition area", "Breakfast & Lunch included", "Closing party and beers included"]
+  validFrom: "2015-12-01T00:00"
+  validThrough: "2015-03-17T23:59"
+  disabled: false
+  soldOut: false
   soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://plus.google.com/u/0/b/113729645880846425767/113729645880846425767/posts/p/pub", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=J_OnTheBeach", icon: "twitter"}
+# - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://www.jelastic.com", text: "Jelastic"}
+   - {link: "http://www.valo.io", text: "VALO"}
+   - {link: "http://www.meetup.com/Malaga-Scala/", text: "Scala User Group - Malaga"}
+   - {link: "http://www.meetup.com/es/yeswetech/", text: "Yes We Tech - Malaga"}
+   - {link: "http://www.meetup.com/es/MalagaJUG/", text: "Java User Group - Malaga"}
+   - {link: "http://www.meetup.com/MadridJUG/", text: "Java User Group - Madrid"}
+   - {link: "http://www.meetup.com/Scala-Programming-Madrid/", text: "Scala User Group - Madrid"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:info@jonthebeach.com", text: "info@jonthebeach.com"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "http://berlincodeofconduct.org/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
 blogCommentsEnabled: true
-discusShortName: "devfestua"
+discusShortName: "J_OnTheBeach"
 
 # Speakers List Block
 showSessions: true
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+aboutUs: "The organizers of J On The Beach are made up of lovers of functional programming. A heterogeneous group who see this paradigm as the future of software development."
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
@@ -213,46 +237,43 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "36.6894372, -4.4452808"
+logisticsMapMobileCenterCoordinates: "36.6894372, -4.4452808"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+ - {title: "From the Airport", information: 'Many bus lines connect the airport with the city centre of Jerez de la Frontera and the city of Cádiz. More information is available at <a href="http://www.aena.es/csee/Satellite/Aeropuerto-Jerez/en/Page/1237554508311//Public-transport.html">AENA</a>.'}
+ - {title: "By Train", information: 'The train station is just off the Plaza de Sevilla with up to 20 trains running daily to and from El Puerto de Santa Maria and Jerez de la Frontera and up to 12 regional lines to and from Seville. There are four long distance trains daily to and from Cordoba and two each for Madrid and Barcelona.'}
+ - {title: "Hotels", information: 'Málaga has many fantastic hotels. The event is in the off season so prices and availability will be favorable. Below you will find a few recommendations'}
 directionDetailsWideCards:
  -
-  title: "Questions?"
+  title: "Málaga"
   subCards:
    -
     title: "Hotels"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.vinccimalaga.com/", text: "Hotel Vincci Málaga"}
+     - {link: "http://www.ilunionhotels.com/hotel-ilunion-malaga-en-malaga", text: "Hotel Ilunion Malaga"}
+     - {link: "http://www.hotelsolymar-malaga.com/", text: "Hotel Solymar Málaga"}
    -
-    title: "Registration"
+    title: "Excellent restaurants"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.chupytira.es/", text: "Marisquería chupytira"}
+     - {link: "http://rociotapasysushi.com/", text: "Rocío Tapas & Sushi"}
+     - {link: "http://www.restauranteelbotijo.com/", text: "El Botijo"}
    -
-    title: "Attendance Details"
+    title: "Some unknown places"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "www.coleccionmuseoruso.es", text: "Russian Museum"}
+     - {link: "https://es.wikipedia.org/wiki/Santuario_de_la_Victoria_(M%C3%A1laga)", text: "Pantheon of the Counts of BuenaVista"}
+     - {link: "http://www.malagaturismo.com/es/recursos-turisticos/detalle/cementerio-ingles/52", text: "English Cemetery"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
-enableHackathon: true
+enableHackathon: false
 
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
